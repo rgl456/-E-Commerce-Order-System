@@ -4,10 +4,8 @@ services:
     container_name: mysql-product-db
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: product_db
-      MYSQL_USERNAME: product_user
-      MYSQL_PASSWORD: product_pass
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
     ports:
         - "3307:3306"
-    volumes:
-      - mysql-product-data:/var/lib/mysql

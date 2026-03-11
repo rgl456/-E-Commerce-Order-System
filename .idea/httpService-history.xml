@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HttpHistory">
+    <option name="httpHistories">
+      <map>
+        <entry key="0">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;sku&quot;: &quot;1944EC&quot;,&#10;  &quot;name&quot;: &quot;rocket&quot;,&#10;  &quot;description&quot;: &quot;mbfwfe&quot;,&#10;  &quot;category&quot;: &quot;space&quot;,&#10;  &quot;price&quot;: 450&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8083" />
+              <option name="id" value="0" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;sku&quot;:&quot;1944EC&quot;,&quot;name&quot;:&quot;rocket&quot;,&quot;description&quot;:&quot;mbfwfe&quot;,&quot;category&quot;:&quot;space&quot;,&quot;price&quot;:450,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;createdAt&quot;:&quot;2026-03-11T16:30:07.501557&quot;}" />
+              <option name="time" value="2026-03-11 16:30:08" />
+              <option name="uri" value="/api/v1/products" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="1">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8083" />
+              <option name="id" value="1" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="01" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;sku&quot;:&quot;1944EC&quot;,&quot;name&quot;:&quot;rocket&quot;,&quot;description&quot;:&quot;mbfwfe&quot;,&quot;category&quot;:&quot;space&quot;,&quot;price&quot;:450.00,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;createdAt&quot;:&quot;2026-03-11T16:30:07.501557&quot;}" />
+              <option name="time" value="2026-03-11 16:30:21" />
+              <option name="uri" value="/api/v1/products/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8083" />
+              <option name="id" value="2" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;sku&quot;:&quot;1944EC&quot;,&quot;name&quot;:&quot;rocket&quot;,&quot;description&quot;:&quot;mbfwfe&quot;,&quot;category&quot;:&quot;space&quot;,&quot;price&quot;:450.00,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;createdAt&quot;:&quot;2026-03-11T16:30:07.501557&quot;}" />
+              <option name="time" value="2026-03-11 16:30:37" />
+              <option name="uri" value="/api/v1/products/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8083" />
+              <option name="id" value="3" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="sku" value="1944EC" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;sku&quot;:&quot;1944EC&quot;,&quot;name&quot;:&quot;rocket&quot;,&quot;description&quot;:&quot;mbfwfe&quot;,&quot;category&quot;:&quot;space&quot;,&quot;price&quot;:450.00,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;createdAt&quot;:&quot;2026-03-11T16:30:07.501557&quot;}" />
+              <option name="time" value="2026-03-11 16:30:44" />
+              <option name="uri" value="/api/v1/products/sku/{sku}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="4">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8083" />
+              <option name="id" value="4" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="[{&quot;id&quot;:1,&quot;sku&quot;:&quot;1944EC&quot;,&quot;name&quot;:&quot;rocket&quot;,&quot;description&quot;:&quot;mbfwfe&quot;,&quot;category&quot;:&quot;space&quot;,&quot;price&quot;:450.00,&quot;status&quot;:&quot;ACTIVE&quot;,&quot;createdAt&quot;:&quot;2026-03-11T16:30:07.501557&quot;}]" />
+              <option name="time" value="2026-03-11 16:30:48" />
+              <option name="uri" value="/api/v1/products" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="5">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8083" />
+              <option name="id" value="5" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="true" />
+              <option name="time" value="2026-03-11 16:30:57" />
+              <option name="uri" value="/api/v1/products/{id}/available" />
+            </ReqHistory>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
