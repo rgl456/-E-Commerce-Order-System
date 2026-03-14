@@ -7,20 +7,13 @@ spring:
 
   cloud:
     gateway:
-      globalcors:
-        corsConfigurations:
-          '[/**]':
-            allowedOrigins: "*"
-            allowedMethods: "*"
-            allowedHeaders: "*"
-
-      default-filters:
-        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
-
       routes:
+
         - id: product-service
           uri: lb://product-service
           predicates:
+            - Path=/api/v1/products/**
+          filters:
             - name: CircuitBreaker
               args:
                 name: productServiceCB
@@ -50,5 +43,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-    instance:
-      prefer-ip-address: true
+  instance:
+    prefer-ip-address: true
